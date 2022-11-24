@@ -22,6 +22,8 @@ public class ProductoController {
 	@Autowired
 	private ProductoService productoService;
 	
+	// Modificación en el código
+	
 	@GetMapping("/productos")
 	public String index(Model modelo) {
 		modelo.addAttribute("productos", productoService.obtenerTodos());
