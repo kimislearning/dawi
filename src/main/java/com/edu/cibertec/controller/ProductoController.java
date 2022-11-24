@@ -23,6 +23,7 @@ public class ProductoController {
 	private ProductoService productoService;
 	
 	// Modificación en el código
+	// Segunda modificación
 	
 	@GetMapping("/productos")
 	public String index(Model modelo) {
