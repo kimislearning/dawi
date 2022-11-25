@@ -57,4 +57,5 @@ public class ProductoController {
 		productoService.eliminarProductoById(id);
 		return "redirect:/productos";
 	}
+	//prueba Kimberly
 }
